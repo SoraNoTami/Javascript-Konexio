@@ -4,46 +4,59 @@ console.log("Hello World !");
 
 // 02 - String
 
-var test = "My name is Ethan"
+let test = "My name is Ethan";
 
 console.log(test);
 
 // 03 - Concaténation
 
-var name = "Ethan";
+let name = "Ethan";
 
 console.log("Nice to meet you " + name);
 
 // 04 - String Length
 
-var testLength = "I'm very long !";
+let testLength = "I'm very long!";
 
-console.log(test.length);
+console.log(testLength.length);
 
 // 05 - Replace
 
-var food = "croissant is meh";
+let food = "croissant is meh";
 food = food.replace("meh","so good");
 
 console.log(food);
 
 // 06 - Up and Down
 
-var basic = "This is Cool";
-var basicUp = basic.toUpperCase();
+let basic = "This is Cool";
+let basicUp = basic.toUpperCase();
+let basicDown = basic.toLowerCase();
 
+console.log(basic);
 console.log(basicUp);
+console.log(basicDown);
 
 // 07 - Split
 
-var word = "banana";
-var letters = word.split("");
+let word = "banana";
+let letters = word.split("");
 
 console.log(letters);
 
 //08 - Template
 
-var age = "19";
-var template = "I'm " + age + " years old";
+let age = "19";
+let template = "I'm " + age + " years old";
 
-console.log(template)
+console.log(template);
+
+// Bonus
+
+let myLife= "Nothing to see";
+console.log(myLife);
+
+let changed = "Bonjour";
+changed = changed.replaceAll("o","a");
+
+console.log(changed);
