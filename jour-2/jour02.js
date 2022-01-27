@@ -36,14 +36,14 @@ console.log(test % bis);
 let test2 = 143;
 let bis2 = 219;
 
-console.log(test2== bis2);
-console.log(test2!= bis2);
-console.log(test2=== bis2);
-console.log(test2!== bis2);
-console.log(test2> bis2);
-console.log(test2>= bis2);
-console.log(test2< bis2);
-console.log(test2<= bis2);
+console.log(test2 == bis2);
+console.log(test2 != bis2);
+console.log(test2 === bis2);
+console.log(test2 !== bis2);
+console.log(test2 > bis2);
+console.log(test2 >= bis2);
+console.log(test2 < bis2);
+console.log(test2 <= bis2);
 
 //06 - Condition
 
