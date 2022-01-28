@@ -1,4 +1,5 @@
 //01 - Array
+
 let fruits = ["mango","lemon","blueberry"];
 console.log(fruits);
 
@@ -47,7 +48,7 @@ let sentence = "Hello Konexio";
 let letters = sentence.split("");
 let myArray = [];
 
-for(i = sentence.length; i >= 0; i--){
+for(let i = sentence.length; i >= 0; i--){
     myArray.push(letters[i]) ;
 }
 

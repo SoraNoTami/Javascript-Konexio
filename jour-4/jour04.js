@@ -36,6 +36,7 @@ checkIfEven(4);
 checkIfEven(39);
 
 //04 - Compare
+
 function compare(num1, num2){
     if(num1 > num2){
         console.log(num1 + " is bigger");
@@ -51,6 +52,7 @@ compare(24, 20);
 compare(100, 100);
 
 //05 - Add Up
+
 let tableauNum = [];
 let numFinal = 0;
 
@@ -68,6 +70,7 @@ function addUp(num){
 addUp(12);
 
 //06 - Time
+
 let seconds = 0;
 let minutes = 0;
 let hours = 0;
