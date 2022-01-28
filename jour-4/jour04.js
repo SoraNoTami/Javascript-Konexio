@@ -88,7 +88,7 @@ function format(num){
             i -= seconds;
         }
     }
-console.log(hours +":"+ minutes + ":" + seconds);
+console.log(hours + ":" + minutes + ":" + seconds);
 }
 
 format(3700)
