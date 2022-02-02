@@ -5,21 +5,23 @@ let cat = {
     age: "3",
     isCute: true
 }
-
 console.log(cat)
 
+if (cat.isCute){
+    console.log("So cute !");
+}
 //02 - Combine
 
 let cat2 = {
     name: "Oggy",
-    age: "4",
+    age: 4,
     isCute: false
 }
 
 let cats = [cat, cat2];
 
-console.log(cat.age);
-console.log(cat2.isCute);
+console.log(cats[0].age);
+console.log(cats[1].isCute);
 
 //03 - Even
 
@@ -44,6 +46,8 @@ function compare(num1, num2){
         console.log(num2 + " is bigger")
     }else if(num1 === num2){
         console.log("both are the same")
+    }else{
+        console.log("Error")
     }
 }
 
