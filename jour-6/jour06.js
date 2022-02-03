@@ -44,24 +44,32 @@ function checkProfile(email,username,password){
     }
 }
 
-checkProfile(sora,sora,sora)
+// checkProfile("sora","sora","sora")
 
 let plop = {
-properties: {
-    verifEmail: {
-      pattern: /^\S+@\S+\.\S+$/,
-      message: 'Name must be only letters, spaces, or dashes',
-      required: true
-    },
-    password: {
-      hidden: true
+    properties: {
+        email: {
+            pattern: /^\S+@\S+\.\S+$/,
+            message: 'this is not an e-mail',
+            required: true
+        },
+
+        username: {
+            pattern: /^[a-zA-Z0-9-]{6,}$/
+        },
+
+        password: {
+            pattern: /^(?=.*[a-zA-Z])(?=.*\d)[A-Za-z\d]{8,30}$/,
+            hidden: true
+        }
     }
-}
 };
 
 
-// prompt.get(['email', 'username', 'password'], function (err, result) {
-//     if (verifEmail.test(email)){
-//         console.log("all good")
-//     }
-// })
+prompt.get(plop, function (err, result) {
+    if (err){
+        console.log("error")
+    }else{
+        console.log("all good")
+    }
+})

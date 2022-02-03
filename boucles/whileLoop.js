@@ -32,20 +32,20 @@ while (dice !== 6){
 
 //03 - Course
 
-let ussainBolt = 0;
+let usainBolt = 0;
 let tysonGay = 0;
 let minimum2 = 1;
 let maximum2 = 10;
-while (ussainBolt < 100 && tysonGay < 100){
+while (usainBolt < 100 && tysonGay < 100){
     let randomUB = Math.floor(Math.random() * (maximum - minimum + 1) + minimum);
     let randomTG = Math.floor(Math.random() * (maximum - minimum + 1) + minimum);
     tysonGay += randomTG;
-    ussainBolt += randomUB;
-    if (ussainBolt >= 100 && tysonGay < 100){
+    usainBolt += randomUB;
+    if (usainBolt >= 100 && tysonGay < 100){
         console.log("Ussain Bolt Wins");
-    }else if (tysonGay >= 100 && ussainBolt < 100){
+    }else if (tysonGay >= 100 && usainBolt < 100){
         console.log("Tyson Gay Wins");
-    }else if (ussainBolt >= 100 && tysonGay >= 100){
+    }else if (usainBolt >= 100 && tysonGay >= 100){
         console.log("Both Wins !!!");
     }
 }
