@@ -1,16 +1,14 @@
 {
-  "name": "jour-7",
+  "name": "jour-8",
   "version": "1.0.0",
-  "main": "jour07.js",
+  "description": "",
+  "main": "jour08.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fs": "^0.0.1-security",
-    "prompt": "^1.2.1",
     "request": "^2.88.2"
-  },
-  "description": ""
+  }
 }
